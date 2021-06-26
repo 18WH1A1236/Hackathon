@@ -43,7 +43,7 @@ public class MainActivity extends Activity  {
                      Credentials",Toast.LENGTH_SHORT).show();
 
                   tx1.setVisibility(View.VISIBLE);
-                  tx1.setBackgroundColor(Color.RED);
+                  tx1.setBackgroundColor(Color.YELLOW);
                   counter--;
                   tx1.setText(Integer.toString(counter));
 
